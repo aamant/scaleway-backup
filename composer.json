@@ -1,0 +1,18 @@
+{
+    "name": "aamant/scaleway-backup",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Amant Arnaud",
+            "email": "contact@arnaudamant.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Aamant\\ScalewayBackup\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.5"
+    }
+}
