@@ -12,4 +12,4 @@ $client = new \Aamant\ScalewayBackup\Client($config);
 $backup = new \Aamant\ScalewayBackup\ScalewayBackup($client, $config);
 
 $backup->backup();
-$backup->clean(true);
+$backup->clean();
